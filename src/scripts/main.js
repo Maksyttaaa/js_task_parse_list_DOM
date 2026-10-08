@@ -27,7 +27,7 @@ function getEmployees(list) {
     const age = worker.dataset.age;
 
     employees.push({
-      fullName: fullName.trim(),
+      name: fullName.trim(),
       position,
       salary,
       age,
